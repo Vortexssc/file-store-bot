@@ -22,9 +22,9 @@ def is_enabled(value, default):
 
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "29640476"))
-API_HASH = environ.get("API_HASH", "824d5b93ac8c8fddcf4088a67ecd5222")
-ADMINS = int(environ.get("ADMINS", "6138367360"))
+API_ID = int(environ.get("API_ID", "20115847"))
+API_HASH = environ.get("API_HASH", "c8197a026ad7a86be3f7b6411f6f117a")
+ADMINS = int(environ.get("ADMINS", "6200356633"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://infotechhero890:7c2qvHdJUYqTOaMa@cluster0.veojhex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -34,8 +34,8 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "7097361555:AAHOhbFWGflLqJQcY5vWleTU-iXvfai_rXs")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Anime_file_store1_bot") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "7884674072:AAGQsHBna3_GatCfsGuVTpNwYwMbaLz7HJ8")
+BOT_USERNAME = environ.get("BOT_USERNAME", "VirtualEscapeRoom_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://graph.org/file/f5a26ac21b060d5787ea3.jpg https://graph.org/file/30539d8f1fc92423d6a19.jpg https://graph.org/file/701ff72fb43d85e073f03.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
